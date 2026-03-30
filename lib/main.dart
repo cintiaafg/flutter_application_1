@@ -13,12 +13,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        // Aquí ponemos el título que pide tu actividad
         appBar: AppBar(
           title: const Text('Welcome to Flutter'),
           backgroundColor: Colors.blue,
         ),
-        // Aquí ponemos el texto en el centro
         body: const Center(
           child: Text(
             'Hello World',
